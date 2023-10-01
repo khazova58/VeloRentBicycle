@@ -1,0 +1,14 @@
+databaseChangeLog:
+  #Схема
+  - include:
+      file: db/changelog/create-schema-rental.sql
+  #Таблица
+  - include:
+      file: db/changelog/bicycles/create-table-bicycle.sql
+  - include:
+      file: db/changelog/clients/create-table-client.sql
+  #Updates
+  - include:
+      file: db/changelog/bicycles/update-table-bicycle-13-09-23.sql
+
+
